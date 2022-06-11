@@ -1,10 +1,10 @@
 import { Environment, OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import { useFrame, Canvas } from '@react-three/fiber';
 import { angleToRadians } from '../../utils/angle';
-import { useRef, Suspense, useState } from 'react';
+import { useRef, Suspense } from 'react';
 import * as THREE from 'three';
 import Shuttle from './shuttle';
-import { GrannyKnot } from 'three/examples/jsm/curves/curveextras';
+import { GrannyKnot } from '../../../node_modules/three/examples/jsm/curves/CurveExtras';
 import Satellite from './satellite';
 import Batgal from './batgal';
 import Asteroid from './aster';
