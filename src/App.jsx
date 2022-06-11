@@ -79,7 +79,10 @@ function App() {
           </div>
           <div className='w-full h-[420px] flex flex-col items-center justify-center'>
             <p className='text-lg text-slate-400 text-center pointer-events-none'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nihil mollitia, commodi veritatis tenetur a eum, qui neque officiis, odio debitis dolorem iusto sequi impedit aperiam. Eaque ipsum minima odit ab eum, reiciendis exercitationem amet quod nam porro consequuntur sapiente.
+              Hey, I'm Nihal Shah, a tech geek, always eager to learn about new technologies, an avid PC enthusiast, and a web developer.
+              My strength lies in creative front end development but also efficient in back-end development.
+              I look for a new perspective in everything I come across to make it more efficient and easy. 
+              Looking forward to connecting with you, it's just one button away!
             </p>
           </div>
         </section>
