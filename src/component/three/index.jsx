@@ -12,6 +12,7 @@ import Earth from './earth';
 import Ship from './ship';
 import { AnimatePresence } from 'framer-motion';
 import {motion} from 'framer-motion-3d';
+import '../../index.css';
 
 export default function Three(){
     const curve = new GrannyKnot();

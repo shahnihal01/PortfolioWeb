@@ -2,14 +2,15 @@ import { useState } from 'react';
 import Three from './component/three';
 import {BsMouse} from 'react-icons/bs';
 import {IoMenu, IoCodeWorking} from 'react-icons/io5';
-import {FaReact} from 'react-icons/fa';
-import {SiTailwindcss} from 'react-icons/si';
+import {FaAngular, FaBootstrap, FaCss3Alt, FaGithub, FaHtml5, FaPython, FaReact} from 'react-icons/fa';
+import {SiCplusplus, SiJava, SiJavascript, SiTailwindcss, SiThreedotjs, SiVite} from 'react-icons/si';
 import pfp from '/assets/images/pfp.jpg';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Experience, Projects, SocialLinks } from './utils/data';
+import { Education, Experience, Projects, SocialLinks } from './utils/data';
 import {AnimatePresence, motion} from 'framer-motion';
-import threejslogo from '/assets/Threejs-logo.svg';
+import Skills from './component/three/skills';
+import './index.css'
 
 function App() {
   const [isActive,setIsActive] = useState(false);
@@ -60,11 +61,13 @@ function App() {
         </div>
       </nav>
       <div className='flex h-screen w-full relative' id='home'>
-        <Three/>
-        <div className='absolute top-14 w-full justify-center items-center flex flex-col pointer-events-none'>
+        <div className='maincan flex h-screen w-full absolute z-0'>
+          <Three/>
+        </div>
+        <div className='absolute top-14 w-full justify-center z-20 items-center flex flex-col pointer-events-none'>
             <p className='text-lg font-medium text-slate-200'>Hover/Tap over spaceship to interact</p>
         </div>
-        <div className='absolute bottom-2 w-full justify-center items-center flex flex-col pointer-events-none'>
+        <div className='absolute bottom-2 w-full justify-center z-20 items-center flex flex-col pointer-events-none'>
             <p className='text-2xl invert'><BsMouse/></p>
             <p className='text-lg font-medium text-slate-200'>Sroll to discover</p>
         </div>
@@ -79,11 +82,56 @@ function App() {
           </div>
           <div className='w-full h-[420px] flex flex-col items-center justify-center'>
             <p className='text-lg text-slate-400 text-center pointer-events-none'>
-              Hey, I'm Nihal Shah, a tech geek, always eager to learn about new technologies, an avid PC enthusiast, and a web developer.
+              Hey, I'm Nihal Shah, a tech geek, an avid PC enthusiast, a web developer, and a gamer. 
+              I'm always eager to learn about new technologies.
               My strength lies in creative front end development but also efficient in back-end development.
               I look for a new perspective in everything I come across to make it more efficient and easy. 
               Looking forward to connecting with you, it's just one button away!
             </p>
+          </div>
+        </section>
+        <section className='w-full flex flex-col items-center justify-center'>
+          <p className='text-7xl py-4 text-slate-400 text-center pointer-events-none'>Education</p>
+          <VerticalTimeline>
+            {
+              Education && Education.map(n=>(
+                <VerticalTimelineElement
+                  key={n.id}
+                  className="vertical-timeline-element--work"
+                  contentStyle={{ background: 'rgb(6, 182, 212)', color: '#fff' }}
+                  contentArrowStyle={{ borderRight: '7px solid  rgb(6, 182, 212)' }}
+                  date={n.dur}
+                  iconStyle={{ background: 'rgb(6, 182, 212)', color: '#fff' }}
+                  icon={<IoCodeWorking/>}
+                >
+                  <h3 className="vertical-timeline-element-title text-xl pointer-events-none">{n.title}</h3>
+                  <h4 className="vertical-timeline-element-subtitle text-lg font-bold pointer-events-none">{n.inst}</h4>
+                  <p className=' pointer-events-none'>
+                    Score: {n.gpa}
+                  </p>
+                </VerticalTimelineElement>
+              ))
+            }
+          </VerticalTimeline>
+        </section>
+        <section className='w-full flex flex-col items-center justify-center'>
+          <p className='text-7xl py-4 text-slate-400 text-center pointer-events-none'>Skills</p>
+          <div className='w-full flex flex-row items-center justify-center text-4xl text-slate-400 gap-2'>
+            <FaReact/>
+            <FaPython/>
+            <SiJava/>
+            <SiJavascript/>
+            <SiCplusplus/>
+            <FaAngular/>
+            <FaHtml5/>
+            <FaCss3Alt/>
+            <SiTailwindcss/>
+            <FaGithub/>
+            <SiThreedotjs/>
+            <FaBootstrap/>
+          </div>
+          <div className='w-full h-[380px] md:w-[400px] md:h-[400px]'>
+            <Skills/>
           </div>
         </section>
         <section className='w-full flex flex-col items-center justify-center'>
@@ -152,8 +200,9 @@ function App() {
           <p className='text-slate-400 text-center'>This PWA website was built using</p>
           <div className='flex flex-row text-3xl text-slate-400 justify-center gap-2'>
             <FaReact/>
+            <SiVite/>
             <SiTailwindcss/>
-            <img className='w-[30px] h-[30px]' src={threejslogo} alt="threejslogo"/>
+            <SiThreedotjs/>
           </div>
         </section>
       </main>

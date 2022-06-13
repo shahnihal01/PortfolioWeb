@@ -24,6 +24,30 @@ export const Experience =[
     }
 ]
 
+export const Education = [
+    {
+        id: 1,
+        title:"Bachelor of Technology (B.Tech), Information Technology",
+        inst:"Xavier Institute of Engineering",
+        dur:"2019-2023",
+        gpa:"9.17 CGPA"
+    },
+    {
+        id: 2,
+        title:"Senior Secondary (XII), Science",
+        inst:"St. Joseph's High School (C.B.S.E)",
+        dur:"2017-2019",
+        gpa:"84.6%"
+    },
+    {
+        id: 3,
+        title:"Secondary (X)",
+        inst:"St. Joseph's High School (C.B.S.E)",
+        dur:"2007-2017",
+        gpa:"10 CGPA"
+    }
+]
+
 export const Projects =[
     {
         id: 1,
