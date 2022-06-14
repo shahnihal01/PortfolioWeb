@@ -69,7 +69,7 @@ function App() {
         </div>
         <div className='absolute bottom-2 w-full justify-center z-20 items-center flex flex-col pointer-events-none'>
             <p className='text-2xl invert'><BsMouse/></p>
-            <p className='text-lg font-medium text-slate-200'>Sroll to discover</p>
+            <p className='text-lg font-medium text-slate-200'>Scroll to discover</p>
         </div>
       </div>
       <main className='w-[80%] mt-5 relative'>
