@@ -64,6 +64,10 @@ function App() {
         <div className='maincan flex h-screen w-full absolute z-0'>
           <Three/>
         </div>
+        <div className='absolute w-[30%] h-full right-0 z-20'>
+        </div>
+        <div className='absolute w-[30%] h-full left-0 z-20'>
+        </div>
         <div className='absolute top-14 w-full justify-center z-20 items-center flex flex-col pointer-events-none'>
             <p className='text-lg font-medium text-slate-200'>Hover/Tap over spaceship to interact</p>
         </div>
@@ -133,6 +137,7 @@ function App() {
           <div className='w-full h-[380px] md:w-[400px] md:h-[400px]'>
             <Skills/>
           </div>
+          <p className='text-xl animate-bounce text-slate-400'>Spin the word cloud</p>
         </section>
         <section className='w-full flex flex-col items-center justify-center'>
           <p className='text-7xl py-4 text-slate-400 text-center pointer-events-none'>Experience</p>
