@@ -57,15 +57,14 @@ export const Projects =[
     },
     {
         id: 2,
-        title:"Netflix Clone",
-        description:"This website is cloned to look like Netflix's official website with features such as playable trailers of the series and shows.",
-        site:"https://netflix-clone-teal-six.vercel.app/"
+        title:"Self Driving Car using Neural Networks",
+        description:"This is a simulation of how AI would learn to drive a car along with its explanation.",
+        site:"https://neuralnetworksproject.vercel.app/"
     },
     {
-        id: 3,
-        title:"Weather App",
-        description:"A website to obtain the weather of a location given by the user.",
-        site:"https://weather-app-shahnihal01.vercel.app/"
+        id:3,
+        title:"Volume Control using Hand Tracking",
+        description:"This is a Python program using OpenCV to control volume of a computer system by tracking hand."
     },
     {
         id: 4,
@@ -84,6 +83,18 @@ export const Projects =[
         title:"A simple ThreeJS project",
         description:"A 3D Model dances on selected moves. Made using ThreeJS",
         site:"https://my-3d-model.vercel.app"
+    },
+    {
+        id: 7,
+        title:"Weather App",
+        description:"A website to obtain the weather of a location given by the user.",
+        site:"https://weather-app-shahnihal01.vercel.app/"
+    },
+    {
+        id: 8,
+        title:"Netflix Clone",
+        description:"This website is cloned to look like Netflix's official website with features such as playable trailers of the series and shows.",
+        site:"https://netflix-clone-teal-six.vercel.app/"
     }
 ]
 
