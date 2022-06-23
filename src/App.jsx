@@ -23,7 +23,7 @@ function App() {
       animation.start({
         x:0,
         transition:{
-          type:'spring', duration: 1, bounce: 0.3
+          type:'spring', duration: 2, bounce: 0.3
         }
       });
     }
