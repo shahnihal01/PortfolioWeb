@@ -14,7 +14,6 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
@@ -30,5 +29,6 @@
         console.log('Service Worker is not supported by browser.');
       }
     </script>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
