@@ -1,7 +1,3 @@
-import { precacheAndRoute } from 'workbox-precaching'
-
-precacheAndRoute(self.__WB_MANIFEST);
-
 let CACHE_NAME = 'NihalResume';
 let urlsToCache = [
   './',
