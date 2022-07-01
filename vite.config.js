@@ -10,7 +10,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       injectRegister: 'script',
       strategies: 'injectManifest',
-      srcDir: 'src',
+      srcDir: '',
       filename: 'worker.js',
       workbox: {
           globPatterns: ['**/*{js,css,html,ico,png,svg}']  
