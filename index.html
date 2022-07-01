@@ -9,26 +9,10 @@
     <link rel="alternate icon" href="favicon.ico" type="image/png" sizes="16x16">
     <link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180">
     <link rel="mask-icon" href="favicon.svg" color="#FFFFFF">
-    <!-- <link rel="manifest" href="/manifest.json"> -->
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <div id="root"></div>
-    <!-- <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('/pwa/worker.js').then(function(registration) {
-            console.log('Worker registration successful', registration.scope);
-          }, function(err) {
-            console.log('Worker registration failed', err);
-          }).catch(function(err) {
-            console.log(err);
-          });
-        });
-      } else {
-        console.log('Service Worker is not supported by browser.');
-      }
-    </script> -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
