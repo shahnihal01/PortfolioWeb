@@ -1,7 +1,7 @@
 let CACHE_NAME = 'NihalResume';
 let urlsToCache = [
-  '/',
-  '/completed'
+  './',
+  './completed'
 ];
 
 // Install a service worker
