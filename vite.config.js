@@ -16,7 +16,7 @@ export default defineConfig({
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'Nihal Shah',
-        short_name: 'NSRES',
+        short_name: 'Nihal Shah',
         start_url:'https://nihal-shah.vercel.app/',
         description: 'Nihals Portfolio',
         theme_color: '#ffffff',
