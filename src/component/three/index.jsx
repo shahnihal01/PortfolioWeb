@@ -1,4 +1,4 @@
-import { Environment, OrbitControls, PerspectiveCamera } from '@react-three/drei';
+import { Environment, OrbitControls, PerspectiveCamera, Loader } from '@react-three/drei';
 import { useFrame, Canvas } from '@react-three/fiber';
 import { angleToRadians } from '../../utils/angle';
 import { useRef, Suspense } from 'react';
@@ -205,6 +205,7 @@ export default function Three(){
             </Suspense>
         </Canvas>
         </AnimatePresence>
+        <Loader/>
         </>
     )
 }
