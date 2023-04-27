@@ -30,7 +30,7 @@ export const Education = [
         title:"Bachelor of Technology (B.Tech), Information Technology",
         inst:"Xavier Institute of Engineering",
         dur:"2019-2023",
-        gpa:"9.17 CGPA"
+        gpa:"8.51 CGPA"
     },
     {
         id: 2,
@@ -53,7 +53,7 @@ export const Projects =[
         id: 1,
         title:"Paying Guest Website",
         description:"This website is aimed towards providing fresher students and new employees in finding a PG since renting can be hard on the pockets of such freshers due to their financial situation. The website has features like filter by location and accommodation.",
-        site:"https://pg-api-app.herokuapp.com/"
+        site:"https://pg-app-server.cyclic.app/"
     },
     {
         id: 2,
