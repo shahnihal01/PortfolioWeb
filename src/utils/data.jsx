@@ -3,20 +3,27 @@ import {IoLogoGithub, IoLogoLinkedin} from 'react-icons/io5';
 export const Experience =[
     {
         id: 1,
+        date:"26 June 2023 - 30 December 2023",
+        title:"Full Stack Developer",
+        organisation:"WeframeTech",
+        description:"Developed UI for various client projects using NextJS and Tailwind CSS using Typescript. Built Backend using Directus CMS, and extensively worked on Data Modelling and APIs.",
+    },
+    {
+        id: 2,
         date:"6 December 2021 - 6 March 2022",
         title:"Front End Web Developer Intern",
         organisation:"TuDa",
         description:"Worked on front end for the web application using ReactJS, Tailwind CSS. Also woked on video-call feature using OpenVidu and AWSChime.",
     },
     {
-        id: 2,
+        id: 3,
         date:"November 2021 - April 2022",
         title:"Website Management Member",
         organisation:"TEDxXIE",
         description:"Worked on front-end of the website for the TEDxXIE event",
     },
     {
-        id: 3,
+        id: 4,
         date:"October 2021 - April 2022",
         title:"Technical Admin",
         organisation:"Transmission XIE",
@@ -30,14 +37,14 @@ export const Education = [
         title:"Bachelor of Technology (B.Tech), Information Technology",
         inst:"Xavier Institute of Engineering",
         dur:"2019-2023",
-        gpa:"8.51 CGPA"
+        gpa:"8.49 CGPA"
     },
     {
         id: 2,
         title:"Senior Secondary (XII), Science",
         inst:"St. Joseph's High School (C.B.S.E)",
         dur:"2017-2019",
-        gpa:"84.6%"
+        gpa:"86.2%"
     },
     {
         id: 3,
