@@ -71,7 +71,8 @@ export const Projects =[
     {
         id:3,
         title:"Volume Control using Hand Tracking",
-        description:"This is a Python program using OpenCV to control volume of a computer system by tracking hand."
+        description:"This is a Python program using OpenCV to control volume of a computer system by tracking hand.",
+        site:"https://github.com/shahnihal01/VolumeControlUsingHandTracking"
     },
     {
         id: 4,
